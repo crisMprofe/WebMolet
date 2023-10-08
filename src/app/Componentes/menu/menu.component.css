@@ -1,0 +1,22 @@
+#logo {
+    margin-top: 5px;
+    padding: 5px, 0, 0, 10px;
+    width: 145px;
+    z-index: 999;
+  }
+  #logo img {
+    width: 100%;
+  }
+  /*.columnaMenu {
+    
+  }*/
+  .alto {
+    margin: 1px;
+    height: 75px;
+  }
+  .menu {
+    max-width: 900px;
+    padding-top: 10px;
+    padding-right: 25px;
+  }
+  

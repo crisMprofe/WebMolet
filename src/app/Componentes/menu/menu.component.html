@@ -1,0 +1,155 @@
+<!--Menú-->
+<div class="row alto">
+    <div class="col col-sm-2col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+      <div id="logo">
+        <a class="enlaceLogo" href="#"
+          ><img
+            src="../../../assets/Recursos/iconos/logoIPET379.png"
+            class="img-fluid"
+            alt="IPET 379"
+        /></a>
+      </div>
+    </div>
+    <div class="col columnaMenu">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid menu">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a name="Inicio"></a>
+                <a class="nav-link" routerLink="/">
+                  <span class="px-1"
+                    ><img
+                      src="../../../assets/Recursos/iconos/home.png"
+                      class="img-thumbnail"
+                      alt="home"
+                      width="35" /></span
+                  >Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  routerLink="/especialidades"
+                  (click)="opcionSeleccionada()"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  ><span class="px-1"
+                    ><img
+                      src="../../../assets/Recursos/iconos/menu.png"
+                      class="img-thumbnail"
+                      alt="Especialidades"
+                      width="35" /></span
+                  >Especialidades</a
+                >
+  
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#Electricidad">Electricidad</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#Programacion">Programación</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/galeria"
+                (click)="opcionSeleccionada()"
+                  ><span class="px-1"
+                    ><img
+                      src="../../../assets/Recursos/iconos/imagen.png"
+                      class="img-thumbnail"
+                      alt="Galería"
+                      width="35" /></span
+                  >Galeria</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://bloguerosdelmolet.blogspot.com/"
+                  ><span class="px-1"
+                    ><img
+                      src="../../../assets/Recursos/iconos/blog.png"
+                      class="img-thumbnail"
+                      alt="Galería"
+                      width="35" /></span
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  routerLink="/nosotros"
+                  (click)="opcionSeleccionada()"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  ><span class="px-1"
+                    ><img
+                      src="../../../assets/Recursos/iconos/libros.png"
+                      class="img-thumbnail"
+                      alt="nosotros"
+                      width="35" /></span
+                  >Nosotros</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#Gestion">Gestion</a></li>
+                  <li><a class="dropdown-item" href="#Historia">Historia</a></li>
+                </ul>
+              </li>
+  
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  routerLink="/contacto"
+                  (click)="opcionSeleccionada()"
+                  ><span class="px-1"
+                    ><img
+                      src="../../../assets/Recursos/iconos/comunicar.png"
+                      class="img-thumbnail"
+                      alt="contacto"
+                      width="35" /></span
+                  >Contactos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Alerta"
+                  ><span class="px-1"
+                    ><img
+                      src="../../../assets/Recursos/iconos/alerta.png"
+                      class="img-thumbnail"
+                      alt="alerta"
+                      width="35" /></span
+                  >Seguridad</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#SOS"
+                  ><span class="px-1"
+                    ><img
+                      src="../../../assets/Recursos/iconos/merienda.png"
+                      class="img-thumbnail"
+                      alt="SOS"
+                      width="35" /></span
+                  >SOS</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
+  <!--Fin Menú-->
+  

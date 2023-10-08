@@ -1,0 +1,82 @@
+:host {
+    display: block;
+  }
+  :host[hidden] {
+    display: none;
+  }
+  #carouselExampleCaptions {
+    padding-top: 10px;
+  }
+  .caruselCaja {
+    width: 1000px;
+    height: 500px;
+    margin-left: 75px;
+  }
+  .carousel-caption h3,
+  h4 {
+    color: #01030f;
+  
+    font-weight: bold;
+    text-shadow: 2px 1px rgb(74, 227, 232);
+  }
+  .h4Prog {
+    text-shadow: 2px 1px rgb(79, 28, 25);
+  }
+  
+  #escuela {
+    color: #01030f;
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(74, 227, 232);
+  }
+  .centrar {
+    margin-left: 5%;
+    margin-right: 15%;
+    width: 90%;
+    max-height: 700px;
+  }
+  .carousel {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: auto;
+  }
+  .posicion {
+    position: absolute;
+    top: 350px;
+    left: 50px;
+  }
+  .carousel-prev,
+  .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .carousel-prev {
+    left: 10px;
+  }
+  
+  .carousel-next {
+    right: 10px;
+  }
+  
